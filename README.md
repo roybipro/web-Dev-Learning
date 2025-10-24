@@ -1,2 +1,1 @@
-# web-Dev-Learning
-This is folder where i upload what i learning my web dev journey
+# web-Dev-LearningThis is the folder where I upload what I am learning my web dev journey
