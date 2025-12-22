@@ -11,9 +11,9 @@
             margin: 2px;
             padding: 2px;
             display: flex;
-            flex-direction: row;
+            /* flex-direction: row; */
             height: 1000px;
-            flex-wrap: wrap;
+            /* flex-wrap: wrap; */
             justify-content: start;
             align-items: start;
             align-content: start;
@@ -28,24 +28,28 @@
         }
         #box1{
             background-color:aqua ;
+            order: 400;
+            flex-shrink :4;
         }
         #box2{
             background-color: blue;
+            flex-grow: 4;
         }
         #box3{
             background-color: orange;  
         }
         #box4{
-            background-color: brown;   
+            background-color: brown; 
+            order: -1;  
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="box" id="box1"></div>
-        <div class="box" id="box2"></div>
-        <div class="box" id="box3"></div>
-        <div class="box" id="box4"></div>
+        <div class="box" id="box1">Box 1</div>
+        <div class="box" id="box2">Box 2</div>
+        <div class="box" id="box3">Box 3</div>
+        <div class="box" id="box4">Box 4</div>
     </div>
 </body>
 </html>
