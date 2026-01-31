@@ -46,11 +46,72 @@
                 left: 1200px;
             }
         }
+         @keyframes leftMovement{
+            from {
+                top: 650px;
+                left: 1350px;
+            }
+            to {
+                top: 650px;
+                left: 0;
+            }
+        }
+         @keyframes circleMovement{
+            0% {
+                top: 1%;
+                left: 5%; 
+            }
+            30% {
+                top: 5%;
+                left: 90%; 
+            }
+            60%{
+                 top: 70%;
+                 left: 10%;
+            }
+            100%{
+                 top: 75%;
+                 left: 95%;
+            }
+        }
+        #box2{
+            width: 350px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 10px;
+            margin: 10px;
+            position:relative;
+            border: 2px solid black;
+
+            /* @keyframes duration | easing-function | delay |
+            iteration-count | direction | fill-mode | play-state | name */
+            animation: 5s ease-in 1s infinite alternate-reverse  none running leftMovement;
+        }
+        #circle{
+           width: 100px;
+            height: 100px;
+            background-color: blue;
+            border-radius: 50px;
+            margin: 10px;
+            position:relative;
+            border: 2px solid black; 
+            top: 25%;
+            left:45% ;
+            /* @keyframes duration | easing-function | delay |
+            iteration-count | direction | fill-mode | play-state | name */
+            animation: 10s ease-in-out 0s infinite alternate  none running circleMovement;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="box">
+
+        </div>
+        <div id="box2">
+
+        </div>
+        <div id="circle">
 
         </div>
     </div>
