@@ -24,6 +24,13 @@
     /* transform: scale(2); */
     /* transform: skew(45deg); */
     transform: translate(250px, 500px);
+
+
+    justify-content: center;    
+    align-items: center;
+    
+
+
 }
 
 p{
