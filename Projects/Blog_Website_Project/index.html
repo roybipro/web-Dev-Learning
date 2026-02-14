@@ -20,19 +20,24 @@
         </header>
 
         <!-- Main Code -->
-        <main class="Main_container">
+        <main class="main_container">
 
             <!-- Card 1 Code Start -->
 
             <div class="card_container">
 
                 <a href="#" class="card_image_container">
-                    <img src="https://loremflickr.com/600/400/technology" alt="Tech Image" class="card_image" loading="lazy">
+                    <img id="randomImage" width="600" height="400" alt="Random Image">
+
+            <script>
+                fetch("https://api.unsplash.com/photos/random?query=technology&orientation=landscape&client_id=_lqJpw78L3IXAKW5IQqGk9r4g3iVfH1L1yVIpEFZkFg")
+                    .then(response => response.json()).then(data => {document.getElementById("randomImage").src = data.urls.regular;}).catch(error => console.log("Error:", error));
+            </script>
                 </a>
 
-                <div class="card_taitle_container">
+                <div class="card_title_container">
 
-                    <a href="#">
+                    <a href="#" class="card_title_anchor">
                        <h2 class="card_title">New Gadgets Relesed</h2> 
                     </a>
                     <p class="card_desc">
@@ -48,23 +53,339 @@
                             <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="avatar1" loading="lazy" class="author_avatar"> 
                         </div>
                         <div class="author_info_container">
-                            <span>
+                            <span class="author_name">
                                 Dipto Roy
                             </span>
-                            <span>
+                            <span class="author_date">
                                 sept 19,2021
                             </span>
                         </div>
                     </div>
                     <!-- Card Tag Container -->
-                    <div class="card_tag_container">
-                        <span>Technology</span>
+                    <div >
+                        <span class="card_tag_container">Technology</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 1 Code End -->
+
+
+            <!-- Card 2 Code Start -->
+
+            <div class="card_container">
+
+                <a href="#" class="card_image_container">
+                    <img id="randomImage" width="600" height="400" alt="Random Image">
+
+            <script>
+                fetch("https://api.unsplash.com/photos/random?query=nutrition&orientation=landscape&client_id=_lqJpw78L3IXAKW5IQqGk9r4g3iVfH1L1yVIpEFZkFg")
+                    .then(response => response.json()).then(data => {document.getElementById("randomImage").src = data.urls.regular;}).catch(error => console.log("Error:", error));
+            </script>
+                </a>
+
+                <div class="card_title_container">
+
+                    <a href="#" class="card_title_anchor">
+                       <h2 class="card_title">New Nutrition Tips</h2> 
+                    </a>
+                    <p class="card_desc">
+                        Check out the latest tech gadgets hitting the market, from smartphones to smartwatches.
+                    </p>
+
+                </div>
+
+                <div class="card_footer_container">
+                    <!-- author container -->
+                    <div class="author_container">
+                        <div class="author_avatar_container">
+                            <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="avatar1" loading="lazy" class="author_avatar"> 
+                        </div>
+                        <div class="author_info_container">
+                            <span class="author_name">
+                                Dipto Roy
+                            </span>
+                            <span class="author_date">
+                                sept 19,2021
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Card Tag Container -->
+                    <div >
+                        <span class="card_tag_container">Technology</span>
                     </div>
 
                 </div>
             </div>
 
             <!-- Card 2 Code End -->
+
+            <!-- Card 3 Code Start -->
+
+            <div class="card_container">
+
+                <a href="#" class="card_image_container">
+                    <img src="https://loremflickr.com/600/400/technology" alt="Tech Image" class="card_image" loading="lazy">
+                </a>
+
+                <div class="card_title_container">
+
+                    <a href="#" class="card_title_anchor">
+                       <h2 class="card_title">New Gadgets Relesed</h2> 
+                    </a>
+                    <p class="card_desc">
+                        Check out the latest tech gadgets hitting the market, from smartphones to smartwatches.
+                    </p>
+
+                </div>
+
+                <div class="card_footer_container">
+                    <!-- author container -->
+                    <div class="author_container">
+                        <div class="author_avatar_container">
+                            <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="avatar1" loading="lazy" class="author_avatar"> 
+                        </div>
+                        <div class="author_info_container">
+                            <span class="author_name">
+                                Dipto Roy
+                            </span>
+                            <span class="author_date">
+                                sept 19,2021
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Card Tag Container -->
+                    <div >
+                        <span class="card_tag_container">Technology</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 3 Code End -->
+
+            <!-- Card 4 Code Start -->
+
+            <div class="card_container">
+
+                <a href="#" class="card_image_container">
+                    <img src="https://loremflickr.com/600/400/technology" alt="Tech Image" class="card_image" loading="lazy">
+                </a>
+
+                <div class="card_title_container">
+
+                    <a href="#" class="card_title_anchor">
+                       <h2 class="card_title">New Gadgets Relesed</h2> 
+                    </a>
+                    <p class="card_desc">
+                        Check out the latest tech gadgets hitting the market, from smartphones to smartwatches.
+                    </p>
+
+                </div>
+
+                <div class="card_footer_container">
+                    <!-- author container -->
+                    <div class="author_container">
+                        <div class="author_avatar_container">
+                            <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="avatar1" loading="lazy" class="author_avatar"> 
+                        </div>
+                        <div class="author_info_container">
+                            <span class="author_name">
+                                Dipto Roy
+                            </span>
+                            <span class="author_date">
+                                sept 19,2021
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Card Tag Container -->
+                    <div >
+                        <span class="card_tag_container">Technology</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 4 Code End -->
+
+            <!-- Card 5 Code Start -->
+
+            <div class="card_container">
+
+                <a href="#" class="card_image_container">
+                    <img src="https://loremflickr.com/600/400/technology" alt="Tech Image" class="card_image" loading="lazy">
+                </a>
+
+                <div class="card_title_container">
+
+                    <a href="#" class="card_title_anchor">
+                       <h2 class="card_title">New Gadgets Relesed</h2> 
+                    </a>
+                    <p class="card_desc">
+                        Check out the latest tech gadgets hitting the market, from smartphones to smartwatches.
+                    </p>
+
+                </div>
+
+                <div class="card_footer_container">
+                    <!-- author container -->
+                    <div class="author_container">
+                        <div class="author_avatar_container">
+                            <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="avatar1" loading="lazy" class="author_avatar"> 
+                        </div>
+                        <div class="author_info_container">
+                            <span class="author_name">
+                                Dipto Roy
+                            </span>
+                            <span class="author_date">
+                                sept 19,2021
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Card Tag Container -->
+                    <div >
+                        <span class="card_tag_container">Technology</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 5 Code End -->
+
+            <!-- Card 6 Code Start -->
+
+            <div class="card_container">
+
+                <a href="#" class="card_image_container">
+                    <img src="https://loremflickr.com/600/400/technology" alt="Tech Image" class="card_image" loading="lazy">
+                </a>
+
+                <div class="card_title_container">
+
+                    <a href="#" class="card_title_anchor">
+                       <h2 class="card_title">New Gadgets Relesed</h2> 
+                    </a>
+                    <p class="card_desc">
+                        Check out the latest tech gadgets hitting the market, from smartphones to smartwatches.
+                    </p>
+
+                </div>
+
+                <div class="card_footer_container">
+                    <!-- author container -->
+                    <div class="author_container">
+                        <div class="author_avatar_container">
+                            <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="avatar1" loading="lazy" class="author_avatar"> 
+                        </div>
+                        <div class="author_info_container">
+                            <span class="author_name">
+                                Dipto Roy
+                            </span>
+                            <span class="author_date">
+                                sept 19,2021
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Card Tag Container -->
+                    <div >
+                        <span class="card_tag_container">Technology</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 6 Code End -->
+
+            <!-- Card 7 Code Start -->
+
+            <div class="card_container">
+
+                <a href="#" class="card_image_container">
+                    <img src="https://loremflickr.com/600/400/technology" alt="Tech Image" class="card_image" loading="lazy">
+                </a>
+
+                <div class="card_title_container">
+
+                    <a href="#" class="card_title_anchor">
+                       <h2 class="card_title">New Gadgets Relesed</h2> 
+                    </a>
+                    <p class="card_desc">
+                        Check out the latest tech gadgets hitting the market, from smartphones to smartwatches.
+                    </p>
+
+                </div>
+
+                <div class="card_footer_container">
+                    <!-- author container -->
+                    <div class="author_container">
+                        <div class="author_avatar_container">
+                            <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="avatar1" loading="lazy" class="author_avatar"> 
+                        </div>
+                        <div class="author_info_container">
+                            <span class="author_name">
+                                Dipto Roy
+                            </span>
+                            <span class="author_date">
+                                sept 19,2021
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Card Tag Container -->
+                    <div >
+                        <span class="card_tag_container">Technology</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 7 Code End -->
+
+            <!-- Card 8 Code Start -->
+
+            <div class="card_container">
+
+                <a href="#" class="card_image_container">
+                    <img src="https://loremflickr.com/600/400/technology" alt="Tech Image" class="card_image" loading="lazy">
+                </a>
+
+                <div class="card_title_container">
+
+                    <a href="#" class="card_title_anchor">
+                       <h2 class="card_title">New Gadgets Relesed</h2> 
+                    </a>
+                    <p class="card_desc">
+                        Check out the latest tech gadgets hitting the market, from smartphones to smartwatches.
+                    </p>
+
+                </div>
+
+                <div class="card_footer_container">
+                    <!-- author container -->
+                    <div class="author_container">
+                        <div class="author_avatar_container">
+                            <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="avatar1" loading="lazy" class="author_avatar"> 
+                        </div>
+                        <div class="author_info_container">
+                            <span class="author_name">
+                                Dipto Roy
+                            </span>
+                            <span class="author_date">
+                                sept 19,2021
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Card Tag Container -->
+                    <div >
+                        <span class="card_tag_container">Technology</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 8 Code End -->
+
+            
 
         </main>
 
