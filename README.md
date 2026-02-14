@@ -34,6 +34,7 @@ The `Projects/` folder contains small build-along exercises:
 
 - Card layouts
 - Recipe page
+- Blog website project
 
 Each project includes an `index.html` and a `style.css` file.
 
