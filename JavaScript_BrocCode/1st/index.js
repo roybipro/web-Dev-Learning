@@ -40,10 +40,24 @@
 // username = window.prompt("What's your username?")
 // console.log(username)
 
-let = username;
 
-document.getElementById("mySubmit").onclick = function(){
-    username = document.getElementById("username").value;
-    document.getElementById("myH1").textContent = `Hello ${username}`
+//Accept user input 
 
-}
+// let = username;
+
+// document.getElementById("mySubmit").onclick = function(){
+//     username = document.getElementById("username").value;
+//     document.getElementById("myH1").textContent = `Hello ${username}`
+
+// }
+
+
+//type convertion
+
+let age = window.prompt("How Old are you?")
+
+age = Number(age);
+
+age+=1;
+
+console.log(age)
