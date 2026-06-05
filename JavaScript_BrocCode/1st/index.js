@@ -31,7 +31,19 @@
 // document.getElementById("p3").textContent = `You are a student ${isStudent}`;
 // document.getElementById("p3").textContent = `You are a student: ${isStudent}`;
 
-let students = 30;
-students = students + 1;
-students;
-console.log(students);
+// let students = 30;
+// students = students + 1;
+// students;
+// console.log(students);
+
+// let username;
+// username = window.prompt("What's your username?")
+// console.log(username)
+
+let = username;
+
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("username").value;
+    document.getElementById("myH1").textContent = `Hello ${username}`
+
+}
