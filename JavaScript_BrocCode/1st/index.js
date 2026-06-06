@@ -54,10 +54,16 @@
 
 //type convertion
 
-let age = window.prompt("How Old are you?")
+// let age = window.prompt("How Old are you?")
 
-age = Number(age);
+// age = Number(age);
 
-age+=1;
+// age+=1;
 
-console.log(age)
+// console.log(age)
+
+// constamt 
+const PI = 3.1416;
+// PI = 3.14; //error
+
+console.log(PI)
