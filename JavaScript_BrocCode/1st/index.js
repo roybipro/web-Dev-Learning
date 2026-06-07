@@ -63,7 +63,30 @@
 // console.log(age)
 
 // constamt 
-const PI = 3.1416;
+// const PI = 3.1416;
 // PI = 3.14; //error
 
-console.log(PI)
+// console.log(PI)
+
+
+const decreaseBtn = document.getElementById("decreaseBtn");
+const increaseBtn = document.getElementById("increaseBtn");
+const resetBtn = document.getElementById("resetBtn");
+const countLabel = document.getElementById("countLabel");
+
+let count = 0;
+
+decreaseBtn.onclick = function(){
+    count--;
+    countLabel.textContent = count;
+}
+
+increaseBtn.onclick = function(){
+    count++;
+    countLabel.textContent = count;
+}
+
+resetBtn.onclick = function(){
+    count = 0;
+    countLabel.textContent = count;
+}
